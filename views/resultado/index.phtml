@@ -1,0 +1,34 @@
+
+    <?php require_once 'views/header.phtml'; ?>
+    
+<?php var_dump($this->rows); ?>
+    <div id="main">
+        <div class="welcome">Menu Dinámico</div>
+
+        <ul id="treemenu1" class="treeview">
+        <li>Opcion 1</li>
+        <li>Opcion 2</li>
+        <li>Opcion 3
+                <ul>
+                <li>Opcion 3.1</li>
+                <li>Opcion 3.2</li>
+                </ul>
+        </li>
+        <li>Opcion 4</li>
+        <li>Opcion 5
+                <ul>
+                <li>Opcion 5.1</li>
+                <li>Submenu opcion 5.2
+                        <ul>
+                        <li>Opcion 5.2.1</li>
+                        <li>Opcion 5.2.2</li>
+                        </ul>
+                </li>
+                </ul>
+        </li>
+        <li>Opcion 6</li>
+        </ul>
+        
+    </div>
+    
+    <?php require_once 'views/footer.phtml'; ?>

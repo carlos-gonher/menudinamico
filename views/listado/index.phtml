@@ -1,0 +1,40 @@
+
+    <?php require_once 'views/header.phtml'; ?>
+
+    <div class=contenedor-general>
+        <div class="page-header">
+            <div class="page-header-tile">Menu</div>
+            <div class="page-header-actions"><button class="button-new" id="create-element">Nuevo</button></div>
+        </div>
+        
+        <div class=contenedor-tabla>
+            
+            <!-- Table Header -->
+            <div class=contenedor-fila>
+                <div class=contenedor-columna-header>ID</div>
+                <div class=contenedor-columna-header>Nombre</div>
+                <div class=contenedor-columna-header>Menú padre</div>
+                <div class=contenedor-columna-header>Descripción</div>
+                <div class=contenedor-columna-header>Acciones</div>
+            </div>
+            <!-- Table Header -->
+            
+            <!-- Table Rows -->
+            <?php foreach($this->rows as $row) {?>
+                <div class=contenedor-fila>
+                    <div class=contenedor-columna><?php echo $row['menu_id']; ?></div>
+                    <div class=contenedor-columna><?php echo $row['menu_nombre']; ?></div>
+                    <div class=contenedor-columna><?php echo $row['id_padre']; ?></div>
+                    <div class=contenedor-columna><?php echo $row['menu_description']; ?></div>
+                    <div class=contenedor-columna>
+                        <button class="button-edit" id="edit-element" data-index="<?php echo $row['menu_id']; ?>" onclick="Menu.editElement(this)">Editar</button>
+                        <button class="button-edit" id="delete-element" data-index="<?php echo $row['menu_id']; ?>" onclick="Menu.deleteElement(this)">Eliminar</button>
+                    </div>
+                </div>
+            <?php } ?>
+            <!-- Table Rows -->
+            
+        </div>
+    </div>
+    
+    <?php require_once 'views/footer.phtml'; ?>

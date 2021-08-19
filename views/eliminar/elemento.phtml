@@ -1,0 +1,21 @@
+
+    <?php require_once 'views/header.phtml'; ?>
+
+    <div id="main">
+        
+        <div class="new-title"><h3>Eliminar un elemento nuevo para el Menú</h3></div>
+
+        <div class="form-container">
+          <form action="<?php echo BASE_URL; ?>/eliminar/borrar" method="POST">
+              
+                <label for="country">Categoría padre: <?php echo $this->row['id_padre']; ?></label><br>
+                <label for="fname">Nombre: <?php echo $this->row['menu_nombre']; ?></label><br>
+                <label for="lname">Descripción: <?php echo $this->row['menu_description']; ?></label><br>
+                <input id="menu_id" name="menu_id" type="hidden" value="<?php echo $this->row['menu_id']; ?>">
+                <input type="submit" value="Submit">
+          </form>
+        </div>
+        
+    </div>
+    
+    <?php require_once 'views/footer.phtml'; ?>

@@ -1,0 +1,33 @@
+
+    <?php require_once 'views/header.phtml'; ?>
+    
+    <div id="main">
+        
+        <div class="new-title"><h3>Editar un elemento nuevo para el Menú</h3></div>
+
+        <div class="form-container">
+          <form action="<?php echo BASE_URL; ?>/editar/guardar" method="POST">
+              
+            <label for="id_padre">Categoría padre</label>
+            <select id="id_padre" name="id_padre">
+              <option value="0">Seleccionar categoría</option>
+              <option value="1">Inicio</option>
+              <?php foreach ($this->categories as $categories) {?>
+                        <option value="<?php echo $categories['menu_id']; ?>" <?php if($categories['menu_id'] == $this->row['id_padre']) { echo ' selected="selected" '; }?>><?php echo $categories['menu_nombre']; ?></option>
+              <?php }?>              
+            </select>
+              
+            <label for="menu_nombre">Nombre</label>
+            <input type="text" id="menu_nombre" name="menu_nombre" value="<?php echo $this->row['menu_nombre']; ?>">
+
+            <label for="menu_description">Descripción</label>
+            <input type="text" id="menu_description" name="menu_description" value="<?php echo $this->row['menu_description']; ?>">
+
+            <input id="menu_id" name="menu_id" type="hidden" value="<?php echo $this->row['menu_id']; ?>">
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        
+    </div>
+    
+    <?php require_once 'views/footer.phtml'; ?>

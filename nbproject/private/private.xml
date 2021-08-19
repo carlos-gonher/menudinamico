@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/testmenu/index.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/controllers/eliminar.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/menu.html</file>
+            <file>file:/C:/xampp/htdocs/testmenu/controllers/inicio.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/libs/app.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/models/crudModel.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/controllers/listado.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/public/js/general.js</file>
+            <file>file:/C:/xampp/htdocs/testmenu/views/listado/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/testmenu/.htaccess</file>
+            <file>file:/C:/xampp/htdocs/testmenu/public/css/general.css</file>
+            <file>file:/C:/xampp/htdocs/testmenu/views/editar/edicion.phtml</file>
+            <file>file:/C:/xampp/htdocs/testmenu/controllers/editar.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/libs/database.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/controllers/crear.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/views/eliminar/elemento.phtml</file>
+            <file>file:/C:/xampp/htdocs/testmenu/views/header.phtml</file>
+            <file>file:/C:/xampp/htdocs/testmenu/controllers/controllerError.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/views/crear/nuevo.phtml</file>
+            <file>file:/C:/xampp/htdocs/testmenu/libs/controller.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/views/footer.phtml</file>
+            <file>file:/C:/xampp/htdocs/testmenu/views/inicio/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/testmenu/config/config.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/libs/view.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/libs/model.php</file>
+            <file>file:/C:/xampp/htdocs/testmenu/index.html</file>
+        </group>
+    </open-files>
+</project-private>
